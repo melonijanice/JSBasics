@@ -1,0 +1,60 @@
+body {
+    background-color: #1b335d;
+    color: white;
+    margin: 0 auto;
+}
+
+span {
+    color: purple;
+}
+
+.header {
+    background-color: #ce2f36;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: gray;
+    border-radius: 10px;
+}
+
+a:link {
+    color: rgb(94, 221, 221);
+    font-weight: bold;
+}
+
+.home {
+    list-style-type: none;
+    color: rgb(156, 224, 233);
+    padding: 5px;
+}
+
+.submenu {
+    list-style-type: disc;
+}
+
+.submenu-1 {
+    list-style-type: circle;
+}
+
+.wrapper {
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.flexBoxWrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation {
+    background-color: rgb(17, 126, 126);
+    align-self: flex-start;
+    flex-basis: 800px;
+}
+
+.main_content {
+    background-color: rgb(10, 10, 10);
+    vertical-align: top;
+}
